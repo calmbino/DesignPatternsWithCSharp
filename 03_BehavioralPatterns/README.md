@@ -1,21 +1,27 @@
 # Behavioral Patterns
 
-## Chain of Responsibility
+## Intro
+- **알고리즘** 및 **객체 간의 책임 할당**과 관련이 있다.
+- 객체 간의 상호작용과 책인 분배를 정의한다.
 
-## Command
+## Body
 
-## Iterator
+### Chain of Responsibility
 
-## Mediator
+### Command
 
-## Memento
+### Iterator
 
-## Observer
+### Mediator
 
-## State
+### Memento
 
-## Strategy
+### Observer
 
-## Template Method
+### State
 
-## Visitor
+### Strategy
+
+### Template Method
+
+### Visitor

@@ -1,12 +1,13 @@
 # Open-Closed Principle (개방-폐쇄 원칙)
 
+> “Software entities … should be open for extension, but closed for modification.” Robert C. Martin
+
 ## What?
-> _“Software entities … should be open for extension, but closed for modification.” Robert C. Martin_
 - 소프트웨어 개체(클래스, 모듈, 함수 등)가 **확장에 대해서는 개방적**이어야 하지만, **수정에 대해서는 폐쇄적**이어야 한다.
 - 간단히 말하자면, **기존 클래스의 동작을 수정하지 않고도 확장할 수 있어야 한다는 의미**이다.
   - `추상화`를 통해 코드를 고수준의 개념으로 나눈다.
     - `인터페이스(Interface)` 또는 `추상 클래스(Abstract Class)`
-    - 추상화는 구체적인 구현을 감추로 유연성 있는 설계를 가능하게 한다. 
+    - 추상화는 구체적인 구현을 감추고 유연성 있는 설계를 가능하게 한다. 
   - `다형성`을 통해 다양한 구현체를 동일한 인터페이스로 처리한다.
     - 다형성은 추상화된 구조에서 여러 구현체를 동일하게 다룰 수 있도록 한다.
 

@@ -1,7 +1,8 @@
 # Single Responsibility Principle (단일 책임 원칙)
 
+> “A class should only have a single responsibility, that is, only changes to one part of the software’s specification should be able to affect the specification of the class.” -Robert C. Martin
+
 ## What?
-> _“A class should only have a single responsibility, that is, only changes to one part of the software’s specification should be able to affect the specification of the class.” -Robert C. Martin_
 - 클래스는 한 가지 이유로만 변경되어야 한다.
 - 즉 클래스는 전체 프로그램에서 하나의 책임(목적, 업무, 기능..)만 가지며, 그 책임을 완전히 캡슐화해서 클래스 내부에 숨겨야 한다.
 

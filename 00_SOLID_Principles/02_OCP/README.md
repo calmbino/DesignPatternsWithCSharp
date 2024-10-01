@@ -1,6 +1,6 @@
 # Open-Closed Principle (개방-폐쇄 원칙)
 
-> “Software entities … should be open for extension, but closed for modification.” Robert C. Martin
+> _“Software entities … should be open for extension, but closed for modification.” Robert C. Martin_
 
 ## What?
 - 소프트웨어 개체(클래스, 모듈, 함수 등)가 **확장에 대해서는 개방적**이어야 하지만, **수정에 대해서는 폐쇄적**이어야 한다.

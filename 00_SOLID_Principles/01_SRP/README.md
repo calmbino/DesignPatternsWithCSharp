@@ -1,6 +1,6 @@
 # Single Responsibility Principle (단일 책임 원칙)
 
-> “A class should only have a single responsibility, that is, only changes to one part of the software’s specification should be able to affect the specification of the class.” -Robert C. Martin
+> _“A class should only have a single responsibility, that is, only changes to one part of the software’s specification should be able to affect the specification of the class.” -Robert C. Martin_
 
 ## What?
 - 클래스는 한 가지 이유로만 변경되어야 한다.

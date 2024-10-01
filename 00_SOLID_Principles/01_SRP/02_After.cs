@@ -10,6 +10,7 @@ public class UserValidator
         // Validation logic
     }
 }
+
 public class UserRepository
 {
     public void SaveUser(string username, string email, string password)
@@ -17,15 +18,18 @@ public class UserRepository
         // Database persistence logic
     }
 }
+
 public class UserCreator
 {
     private readonly UserValidator _validator;
     private readonly UserRepository _repository;
+    
     public UserCreator(UserValidator validator, UserRepository repository)
     {
         _validator = validator;
         _repository = repository;
     }
+    
     public void CreateUser(string username, string email, string password)
     {
         if (!_validator.ValidateEmail(email))

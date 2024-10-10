@@ -1,11 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod_Conceptual", "01_Creational_Patterns\FactoryMethod_Conceptual\FactoryMethod_Conceptual.csproj", "{3237F9ED-B287-46CD-AE52-A199A7978825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod_RealWorld", "01_Creational_Patterns\FactoryMethod_RealWorld\FactoryMethod_RealWorld.csproj", "{F96BBC53-CBBA-4B1C-9E90-851AF82C131E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3237F9ED-B287-46CD-AE52-A199A7978825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3237F9ED-B287-46CD-AE52-A199A7978825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3237F9ED-B287-46CD-AE52-A199A7978825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3237F9ED-B287-46CD-AE52-A199A7978825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96BBC53-CBBA-4B1C-9E90-851AF82C131E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96BBC53-CBBA-4B1C-9E90-851AF82C131E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96BBC53-CBBA-4B1C-9E90-851AF82C131E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96BBC53-CBBA-4B1C-9E90-851AF82C131E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

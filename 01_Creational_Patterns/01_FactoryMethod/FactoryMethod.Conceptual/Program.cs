@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod_Conceptual;
+﻿namespace FactoryMethod.Conceptual;
 
 class Program
 {
@@ -9,11 +9,9 @@ class Program
     abstract class Creator
     {
         public abstract IProduct FactoryMethod();
-
-        /**
-         * - 팩토리 메서드를 통해 Product 객체를 얻고, 이를 사용하여 비즈니스 로직을 수행한다.
-         * - 클라이언트(Client)는 구체적인 객체 생성 방식을 몰라도 객체를 사용할 수 있다.
-         */
+            
+        // 팩토리 메서드를 통해 Product 객체를 얻고, 이를 사용하여 비즈니스 로직을 수행한다.
+        // 클라이언트(Client)는 구체적인 객체 생성 방식을 몰라도 객체를 사용할 수 있다.
         public string SomeOperation()
         {
             var product = FactoryMethod();
@@ -28,10 +26,8 @@ class Program
      */
     class ConcreteCreator1 : Creator
     {
-        /**
-         * - 리턴 타입으로 인터페이스를 사용하기 때문에
-         * - 구체적인 Product 클래스로부터 독립적이다.
-         */
+        // 리턴 타입으로 인터페이스를 사용하기 때문에
+        // 구체적인 Product 클래스로부터 독립적이다.
         public override IProduct FactoryMethod()
         {
             return new ConcreteProduct1();
@@ -52,9 +48,7 @@ class Program
      */
     public interface IProduct
     {
-        /**
-         * - 일관된 방식으로 다양한 Product 객체를 사용할 수 있다.
-         */
+        // 일관된 방식으로 다양한 Product 객체를 사용할 수 있다.
         string Operation();
     }
 

@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod_RealWorld;
+﻿namespace FactoryMethod.RealWorld;
 
 class Program
 {
@@ -14,8 +14,6 @@ class Program
             foreach (var page in document.Pages) Console.WriteLine($" {page}");
             Console.WriteLine();
         }
-
-        Console.ReadKey();
     }
     
     /**

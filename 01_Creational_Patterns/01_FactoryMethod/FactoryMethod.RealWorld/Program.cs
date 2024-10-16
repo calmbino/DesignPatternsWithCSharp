@@ -15,85 +15,85 @@ class Program
             Console.WriteLine();
         }
     }
-    
-    /**
-     * - Product를 추상화한 클래스
-     */
-    public abstract class Page
-    {
-        public override string ToString() => GetType().Name;
-    }
+}
 
-    public class SkillsPage : Page
-    {
-    }
+/**
+ * - Product를 추상화한 클래스
+ */
+public abstract class Page
+{
+    public override string ToString() => GetType().Name;
+}
 
-    public class EducationPage : Page
-    {
-    }
+public class SkillsPage : Page
+{
+}
 
-    public class ExperiencePage : Page
-    {
-    }
+public class EducationPage : Page
+{
+}
 
-    public class IntroductionPage : Page
-    {
-    }
+public class ExperiencePage : Page
+{
+}
+
+public class IntroductionPage : Page
+{
+}
  
-    public class ResultsPage : Page
-    {
-    }
+public class ResultsPage : Page
+{
+}
 
-    public class ConclusionPage : Page
-    {
-    }
+public class ConclusionPage : Page
+{
+}
 
-    public class SummaryPage : Page
-    {
-    }
+public class SummaryPage : Page
+{
+}
 
-    public class BibliographyPage : Page
-    {
-    }
+public class BibliographyPage : Page
+{
+}
 
-    /**
-     * - Creator를 추상화한 클래스
-     */
-    public abstract class Document
-    {
-        public List<Page> Pages { get; protected set; } = null!;
+/**
+ * - Creator를 추상화한 클래스
+ */
+public abstract class Document
+{
+    public List<Page> Pages { get; protected set; } = null!;
         
-        // 팩토리 메서드
-        public abstract void CreatePages();
+    // 팩토리 메서드
+    public abstract void CreatePages();
         
-        public override string ToString() => GetType().Name;
-    }
+    public override string ToString() => GetType().Name;
+}
 
-    public class Resume : Document
+public class Resume : Document
+{
+    public override void CreatePages()
     {
-        public override void CreatePages()
-        {
-            Pages =
-            [
-                new SkillsPage(),
-                new EducationPage(),
-                new ExperiencePage()
-            ];
-        }
+        Pages =
+        [
+            new SkillsPage(),
+            new EducationPage(),
+            new ExperiencePage()
+        ];
     }
+}
 
-    public class Report : Document
+public class Report : Document
+{
+    public override void CreatePages()
     {
-        public override void CreatePages()
-        {
-            Pages =
-            [
-                new IntroductionPage(),
-                new ResultsPage(),
-                new ConclusionPage(),
-                new SummaryPage(),
-                new BibliographyPage()
-            ];
-        }
+        Pages =
+        [
+            new IntroductionPage(),
+            new ResultsPage(),
+            new ConclusionPage(),
+            new SummaryPage(),
+            new BibliographyPage()
+        ];
     }
 }

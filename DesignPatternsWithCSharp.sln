@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.Conceptual", "01_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.RealWorld", "01_Creational_Patterns\04_Prototype\Prototype.RealWorld\Prototype.RealWorld.csproj", "{2A82F766-312E-4F70-A8D5-CF1BD5CEDFA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Conceptual", "01_Creational_Patterns\05_Singleton\Singleton.Conceptual\Singleton.Conceptual.csproj", "{29766A1F-F895-48AC-B8C6-31C9F33BEE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.RealWorld", "01_Creational_Patterns\05_Singleton\Singleton.RealWorld\Singleton.RealWorld.csproj", "{4BD51CC0-F91C-438F-83DB-053271B2BCA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,14 @@ Global
 		{2A82F766-312E-4F70-A8D5-CF1BD5CEDFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A82F766-312E-4F70-A8D5-CF1BD5CEDFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A82F766-312E-4F70-A8D5-CF1BD5CEDFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29766A1F-F895-48AC-B8C6-31C9F33BEE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29766A1F-F895-48AC-B8C6-31C9F33BEE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29766A1F-F895-48AC-B8C6-31C9F33BEE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29766A1F-F895-48AC-B8C6-31C9F33BEE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD51CC0-F91C-438F-83DB-053271B2BCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD51CC0-F91C-438F-83DB-053271B2BCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD51CC0-F91C-438F-83DB-053271B2BCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD51CC0-F91C-438F-83DB-053271B2BCA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

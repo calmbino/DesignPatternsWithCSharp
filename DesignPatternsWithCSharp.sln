@@ -20,6 +20,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Conceptual", "01_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.RealWorld", "01_Creational_Patterns\05_Singleton\Singleton.RealWorld\Singleton.RealWorld.csproj", "{4BD51CC0-F91C-438F-83DB-053271B2BCA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Conceptual", "02_Structural_Patterns\01_Adapter\Adapter.Conceptual\Adapter.Conceptual.csproj", "{8FAB5490-58A0-47D1-80C5-F46561AF8AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.RealWorld", "02_Structural_Patterns\01_Adapter\Adapter.RealWorld\Adapter.RealWorld.csproj", "{507ABA97-6429-4814-A9FC-8401BCB9A853}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +70,14 @@ Global
 		{4BD51CC0-F91C-438F-83DB-053271B2BCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BD51CC0-F91C-438F-83DB-053271B2BCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BD51CC0-F91C-438F-83DB-053271B2BCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAB5490-58A0-47D1-80C5-F46561AF8AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAB5490-58A0-47D1-80C5-F46561AF8AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAB5490-58A0-47D1-80C5-F46561AF8AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAB5490-58A0-47D1-80C5-F46561AF8AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{507ABA97-6429-4814-A9FC-8401BCB9A853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507ABA97-6429-4814-A9FC-8401BCB9A853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507ABA97-6429-4814-A9FC-8401BCB9A853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507ABA97-6429-4814-A9FC-8401BCB9A853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
